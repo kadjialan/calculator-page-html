@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,45 @@
     <link rel="stylesheet" href="asserts/styles/styles.css">
     <title>Calculator</title>
 </head>
+
 <body>
     <div class="main">
-        <button>AC</button>
-        <button>+/-</button>
-        <button><i class="fa-solid fa-percent"></i></button>
-        <button><i class="fa-solid fa-divide"></i></button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button><i class="fa-solid fa-xmark"></i></button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button><i class="fa-solid fa-minus"></i></button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button><i class="fa-solid fa-plus"></i></button>
-        <button>0</button>
-        <button><i class="fa-solid fa-period"></i></button>
-        <button><i class="fa-solid fa-equals"></i></button>
+            <div class="display">
+              <div class="previous_operand"  id="previousoperand">
+                <span></span>
+              </div>
+              <div class="current_operand" id="currentoperand"><span></span></div>
+            </div>
+        <div class="content1">
+            <button class="clear" id="ac">AC</button>
+            <button class="clear" id="plusminus">+/-</button>
+            <button class="clear opertion cal" id="percent">%</button>
+            <button class="operation cal" id="division">÷</button>
+            <button class="numb" id="number7">7</button>
+            <button class=" numb" id="number8">8</button>
+            <button class="numb" id="number9">9</button>
+            <button class="operation cal" id="times">x</button>
+            <button class="numb" id="number4">4</button>
+            <button class="numb" id="number5">5</button>
+            <button class="numb" id="number6">6</button>
+            <button class="operation cal" id="minus">-</button>
+            <button class="numb" id="number1">1</button>
+            <button class="numb" id="number2">2</button>
+            <button class="numb" id="number3">3</button>
+            <button class="operation cal" id="plus">+</button>
+        </div>
+
+        <div class="content2">
+            <button class="long numb" id="number0">0</button>
+            <button class="numb" id="dot">.</button>
+            <button class="equals cal" id="equals">=</button>
+        </div>
+        <br>
+        <footer>
+            <hr>
+        </footer> 
     </div>
-    <footer>
-        <hr>
-    </footer>
+    <script src="asserts/script/calculator.js"></script>
 </body>
+
 </html>
