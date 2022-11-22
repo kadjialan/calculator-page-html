@@ -8,24 +8,25 @@ This project is named project6.
 
 ## ABOUT
 
-This page is a representation of a figma project
+This page is a representation of an iphone calculator and its functionality
 
 ## Built With
 
 - HTML
 - CSS
 - Google Chrome
+- Java Script
 
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with
-`https://github.com/kadjialan/figma-page-html/pull/1` using your terminal.
+`https://github.com/kadjialan/calculator-page-html` using your terminal.
 - Change to the project directory by entering: cd wedding in the terminal.
 
 ## Command-line steps
 
-- $ git clone `$ https://github.com/kadjialan/figma-page-html/pull/1`
+- $ git clone `$ https://github.com/kadjialan/calculator-page-html`
 - $ `cd figma6`
 - $ `git checkout feature/readme`
 
@@ -43,7 +44,7 @@ Knowledge about:
 
 ## Live Site
 
-[Link]( https://kadjialan.github.io/figma-page-html/)
+[Link]( https://kadjialan.github.io/calculator-page-html/)
 
 ## Author
 
@@ -55,7 +56,7 @@ Knowledge about:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kadjialan/figma-page-html/issues).
+Feel free to check the [issues page](https://github.com/kadjialan/calculator-page-html/issues).
 
 ## Show your support
 
