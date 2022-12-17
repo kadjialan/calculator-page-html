@@ -2,10 +2,9 @@ const operators = document.querySelectorAll('.operation')
 const digits = document.querySelectorAll('.numb')
 const AC = document.getElementById('ac')
 const plusOrMinus = document.getElementById('plusminus')
-const percentage = document.getElementById('percent')
 const equals = document.getElementById('equals')
-const currentOperand = document.querySelector('#current_operand span')
-const previousOperand = document.querySelector('#previous_operand span')
+const currentOperand = document.querySelector('#current-operand span')
+const previousOperand = document.querySelector('#previous-operand span')
 
 let currentOperation = ''
 
@@ -20,13 +19,13 @@ function allClear () {
 
 // Append number to screen when number button pressed
 function appendNumber (number) {
-  if (number == '.' && currentOperand.textContent.includes('.')) {
+  if (number === '.' && currentOperand.textContent.includes('.')) {
     return
   }
   (currentOperand.textContent += number).toString
   if (
-    currentOperand.textContent[0] == '0' &&
-     currentOperand.textContent[1] == '0') {
+    currentOperand.textContent[0] === '0' &&
+     currentOperand.textContent[1] === '0') {
     currentOperand.textContent = '0'
   }
 }
