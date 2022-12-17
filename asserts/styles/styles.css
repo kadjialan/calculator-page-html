@@ -16,14 +16,14 @@ body {
 
 .content1 {
   width: 80%;
-  margin: 2vh auto 1vh auto;
+  margin: 2vh auto 1vh;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
 .content2 {
   width: 80%;
-  margin: -3px auto 1vh auto;
+  margin: -3px auto 1vh;
   display: grid;
   grid-template-columns: auto auto auto;
 }
@@ -32,7 +32,7 @@ button {
   margin: 4px;
   width: 12vw;
   height: 6vh;
-  border-radius: 22px 22px;
+  border-radius: 22px;
   color: white;
   background-color: #383737;
   border: 1px solid #383737;
@@ -64,7 +64,7 @@ button {
 hr {
   width: 35%;
   height: 3px;
-  margin: -10px auto auto auto;
+  margin: -10px auto auto;
   background-color: white;
   border-radius: 3px;
 }
@@ -78,7 +78,7 @@ hr {
 
 .display {
   width: 95%;
-  margin: 2vh auto 0 auto;
+  margin: 2vh auto 0;
   color: white;
   border: 1px solid black;
   height: 16vh;
